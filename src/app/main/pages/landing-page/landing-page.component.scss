@@ -1,0 +1,12 @@
+.card-carousel {
+  height: 20rem;
+
+  .carausel-image {
+    height: inherit;
+
+    img {
+      width: 100%;
+      max-height: 20rem;
+    }
+  }
+}

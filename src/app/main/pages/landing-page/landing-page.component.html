@@ -1,0 +1,251 @@
+<div class="content-wrapper container-xxl p-0">
+  <div class="content-body">
+    <section id="basic-info">
+      <div class="row mt-2">
+        <!-- BANNER -->
+        <div class="col-md-12 mb-3">
+          <div class="mb-4">
+            <div class="d-flex justify-content-center">
+              <img
+                class="w-75"
+                src="assets/images/logo/logo_StreamMetrics.png"
+                alt="Card image cap"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- SUBTITLE -->
+        <div class="col-md-12 mb-5">
+          <h1 class="card-text text-left display-4">
+            Industry most comprehensive and historical database of TV & Film
+            from the most influental and powerful OTT streaming service
+          </h1>
+        </div>
+
+        <!-- TRACKING -->
+        <div class="col-md-12 mt-3">
+          <div class="text-center mb-3">
+            <h3 class="card-text m-auto w-100">
+              <i>
+                Tracking
+                <b>
+                  than 200 OTT and TV Everywhere streaming companies AND more
+                  than 1,000 cable, telco and satellite providers.</b
+                >
+                Offering data fields for</i
+              >
+            </h3>
+          </div>
+        </div>
+
+        <!-- ROW OF 3 CARDS -->
+        <div class="col-md-12 col-lg-12 mb-5">
+          <div class="card-deck">
+            <div class="card text-center">
+              <div class="card-body">
+                <h4 class="card-title">TV Series, Movies, Originals, Docs</h4>
+                <a href="javascript:void(0)" rippleEffect class="card-text"
+                  >Provider Release Dates</a
+                >
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Network & Studio names & groups<br />
+                  Provider Genre & Quality Ratings
+                </h4>
+                <a href="javascript:void(0)" rippleEffect class="card-text"
+                  >Genres</a
+                >
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <div class="card-body">
+                <h4 class="card-title">Off-net & Theatrical</h4>
+                <a href="javascript:void(0)" rippleEffect class="card-text"
+                  >Provider Originals</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-12 mb-5">
+          <h1 class="text-info display-3">
+            2 + billion records, growing by 10 milion each day
+          </h1>
+        </div>
+
+        <!-- DESCRIPTION COLUMNS -->
+        <div class="row">
+          <div class="col-md-12 col-lg-12 mb-3 mt-2">
+            <div class="card-deck">
+              <div class="card text-left">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Stay competitive by tracking the top performing Providers,
+                    Studios, Networks, and Content
+                  </h5>
+                </div>
+              </div>
+              <div class="card text-left">
+                <div class="card-body">
+                  <h5 class="text-center">Differentiate product offer</h5>
+                </div>
+              </div>
+              <div class="card text-left">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Support content acquisition and syndication models
+                  </h5>
+                </div>
+              </div>
+              <div class="card text-left">
+                <div class="card-body">
+                  <h5 class="text-center">
+                    Monitor exposure levels and trends
+                  </h5>
+                </div>
+              </div>
+              <div class="card text-left">
+                <div class="card-body">
+                  <h5 class="text-center">Identify market trends</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTIONS -->
+    <section id="solutions">
+      <div class="row mt-3 mb-4">
+        <div class="col-md-12">
+          <div class="card-deck">
+            <div class="card text-left">
+              <div class="card-body">
+                <h2 class="card-title">{{ "solutions" | uppercase }}</h2>
+                <h3>
+                  Designed to help media companies navigate the complexities of
+                  non-linear and linear content distribution tracking.
+                </h3>
+              </div>
+            </div>
+            <div class="card text-left">
+              <div class="card-body">
+                <p>
+                  Stram Metrics products offer a comprehensive, easy to use
+                  database of competitive binge, windowing, and content exposure
+                  solutions designed to help you solidify market position,
+                  differentiate from competitors, achieve maximum exposure for
+                  original content, and provide a baseline for digital content
+                  distribution analysis. Detailed views of these metrics shine a
+                  bright light on the competition and highlight the advantages
+                  of OTT services by provider offer including SVOD.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES CAROUSEL  -->
+    <section id="features-carousel">
+      <div class="row mt-4 mb-3">
+        <!-- CAROUSEL -->
+        <div class="col-md-12">
+          <div class="text-center">
+            <div class="card-carousel">
+              <!-- ngb-carousel component -->
+              <ngb-carousel [showNavigationIndicators]="false" *ngIf="images">
+                <ng-template ngbSlide *ngFor="let image of images">
+                  <div>
+                    <img
+                      [src]="image.img"
+                      class="img-fluid"
+                      style="max-height: 200px"
+                    />
+                  </div>
+                </ng-template>
+              </ngb-carousel>
+            </div>
+          </div>
+          <!-- ngb-carousel component -->
+        </div>
+      </div>
+    </section>
+
+    <section id="instustry-friendly">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <div class="card text-left mb-3">
+            <div class="card-body">
+              <h2 class="card-title">{{ "industry friendly" | uppercase }}</h2>
+              <h3>
+                Stream Metrics products are designed to fit the latest industry
+                standards and data manouverability. All Stream Metrics products
+                are designed with beautiful and simple to use dashboards for a
+                great user experience. Use it on the go or dive deep. Precise
+                and reliable data is always updated and available at your
+                fingertips.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGE DASHBOARD -->
+    <section id="image-dashboard">
+      <div class="row">
+        <!-- TOOD: add images, add them to array and iterate over them, instead of hardcoding -->
+        <div class="col">
+          <img
+            src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png."
+            class="img-thumbnail"
+            alt="Responsive image"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png."
+            class="img-thumbnail"
+            alt="Responsive image"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png."
+            class="img-thumbnail"
+            alt="Responsive image"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png."
+            class="img-thumbnail"
+            alt="Responsive image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- GET STARTED BUTTON -->
+    <div class="row mt-3 mb-4">
+      <div class="col-md-12">
+        <button
+          (click)="onGetStartedClick()"
+          type="button"
+          class="btn btn-primary"
+          rippleEffect
+        >
+          GET STARTED With STREAM METRICS
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
